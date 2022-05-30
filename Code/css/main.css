@@ -1,0 +1,39 @@
+/* Corps de la page */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100%;
+}
+
+/* Sections principales */
+div#section-head{
+    border: solid;
+    border-width: 1mm;
+    background-color: red;
+    height: 10%;
+
+}
+div#section-canaux{
+    border: solid;
+    border-width: 1mm;
+    background-color: blue;
+    float:left;
+    max-width: 600px;
+    min-width: 200px;
+    width: 25%;
+    height: 90%;
+}
+
+div#section-discussion{
+    border: solid;
+    border-width: 1mm;
+    background-color: green;
+    height: 90%;
+    overflow: auto;
+}
+
+/*  */
