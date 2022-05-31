@@ -20,7 +20,7 @@ div#section-head{
 div#section-canaux{
     border: solid;
     border-width: 1mm;
-    background-color: blue;
+    background-color: green;
     float:left;
     max-width: 600px;
     min-width: 200px;
@@ -31,9 +31,47 @@ div#section-canaux{
 div#section-discussion{
     border: solid;
     border-width: 1mm;
-    background-color: green;
+    background-color: blue;
     height: 90%;
     overflow: auto;
 }
 
-/*  */
+/* section-head */
+div#utilisateur{
+    float: right;
+}
+
+div#recherche-canal{
+    margin-left: 35%;
+}    
+
+div#ajout-canal{
+	float: left	;
+}
+#ajout{
+    border: solid;
+	margin: 0px;
+}
+#erreur-nom{
+    visibility: hidden;
+    margin: 0px;
+}
+#canal-submit{
+    margin: 0px;
+}
+
+
+/* section canal */
+
+li.canal{
+    list-style-type: none;
+    border: solid;
+    border-width: 1px;
+    margin : 5px;
+    text-align: center;
+
+}
+#canaux{
+    padding: 0px;
+}
+
