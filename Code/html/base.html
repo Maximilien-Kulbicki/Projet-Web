@@ -3,32 +3,34 @@
     <head>
         <title> Chat Room</title>
         <link rel="stylesheet" type="text/css" href="main.css" />
-        <script type="text/javascript" src=""></script>
+        <script type="text/javascript" src="js/gestion-canaux.js"></script>
+        <script type="text/javascript" src="js/simpleajax.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     </head>
     <body>
         <div id="section-head"> 
 
             <div id="utilisateur">
-                User
+                Username
             </div>
 
             <div id="ajout-canal">
-                Ajouter canal
+                Nouveau canal
+                <input type="textarea" value="Nom">
+                <p id="canal-submit">Valider nom</p>
+                <p id="erreur-nom"></p>
             </div>
 
             <div id="recherche-canal">
                 Rechercher canal
+                <input id="search-bar">
             </div>
 
         </div>
 
         <div id="section-canaux">
             <ul id="canaux">
-                <!-- canal1 de class canal -->
-                <li>#canal1</li>
-                <li>#canal2</li>
-                <li>#canal3</li>
+                <!-- canal de class canal -->
             </ul>
         </div>
 
